@@ -47,7 +47,6 @@ export default {
 .v-app-bar {
   display: flex;
   justify-content: space-between;
-
   margin: 30px 20px 0px 20px;
 }
 
@@ -62,12 +61,6 @@ export default {
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.16px;
-}
-.single-link {
-  border-radius: 174px 117px 165px 116px;
-  -webkit-border-radius: 174px 117px 165px 116px;
-  -moz-border-radius: 174px 117px 165px 116px;
-  border: 2px solid #000000;
 }
 
 .icons {

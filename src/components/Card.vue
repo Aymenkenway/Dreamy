@@ -133,7 +133,7 @@ export default {
   line-height: 21.8px;
   width: 275px;
   height: 82px;
-  font-family: 'Hind Vadodara-Light', Arial, Helvetica;
+  font-family: 'Hind Vadodara-Light', sans-serif;
 }
 .title {
   margin: 10px 0 10px 0;
@@ -144,8 +144,7 @@ export default {
   left: 0;
   top: 0;
   line-height: 21.8px;
-
-  font-family: 'Hind Vadodara';
+  font-family: 'Hind Vadodara', sans-serif;
   white-space: nowrap;
 }
 </style>

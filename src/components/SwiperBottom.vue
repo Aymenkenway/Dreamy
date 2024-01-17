@@ -34,18 +34,17 @@ export default {
 .container {
   margin-top: 50px;
   margin-left: 25%;
-}
-
-.container {
   display: flex;
   flex-wrap: wrap;
+}
+.main-container {
+  margin-top: 100px;
 }
 
 .text {
   margin: 50px 60px 0px 60px;
   display: flex;
   justify-content: space-evenly;
-
   font-family: 'Hind Vadodara', sans-serif;
 }
 .right-text {

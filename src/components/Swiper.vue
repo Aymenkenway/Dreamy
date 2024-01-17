@@ -31,12 +31,11 @@ export default {
   display: flex;
   align-items: center;
   height: 200px;
-
   margin-left: 10%;
 }
 
 .container {
-  margin-top: 10%;
+  margin-top: 150px;
 }
 
 .container {
@@ -48,6 +47,7 @@ export default {
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
+  margin-right: 90px;
 }
 
 .card {

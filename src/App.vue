@@ -3,7 +3,7 @@
     <div class="v-main">
       <div class="Header"><Header /></div>
       <div class="vector1">
-        <img src="./assets/icons/Vector1.png" alt="" />
+        <img class="vector1-image" src="./assets/icons/Vector1.png" alt="" />
       </div>
       <div class="hero">
         <img class="sub-hero1" src="./assets/icons/hero.png" alt="" />
@@ -56,7 +56,6 @@
 </template>
 
 <script>
-import Home from './views/home/Home'
 import Header from './components/Header'
 import Swiper from './components/Swiper'
 import SwiperBottom from './components/SwiperBottom'
@@ -66,7 +65,6 @@ export default {
   name: 'App',
 
   components: {
-    Home,
     Header,
     Swiper,
     SwiperBottom,
@@ -139,7 +137,7 @@ export default {
 }
 .hero2 {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 150px;
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
@@ -185,12 +183,12 @@ export default {
   border-radius: 10px;
   font-family: 'Hind Vadodara-Bold', Helvetica;
   font-weight: 700;
-
   font-size: 17px;
   letter-spacing: 0.34px;
   line-height: 23.3px;
-  padding: 20px 0px 0px 40px;
+  padding: 20px 0px 0px 32px;
   margin-top: 40px;
+  color: white;
 }
 .second-swiper {
   width: 100%;

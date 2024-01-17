@@ -69,7 +69,8 @@ export default {}
 }
 
 .container {
-  margin-top: 10%;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .container {

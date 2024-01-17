@@ -111,7 +111,6 @@ export default {
   flex-direction: column;
   width: 100px;
   height: 298px;
-
   border-radius: 10px;
 }
 .title {
@@ -121,7 +120,7 @@ export default {
   font-weight: 700;
   letter-spacing: 0.88px;
   line-height: 21.8px;
-  font-family: 'Hind Vadodara';
+  font-family: 'Hind Vadodara', sans-serif;
 }
 
 .image {

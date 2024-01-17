@@ -38,6 +38,7 @@ export default {
 <style scoped>
 @import '../assets/fonts/fonts.css';
 .main-container {
+  margin-top: 150px;
   padding-top: 40px;
   display: flex;
   justify-content: space-between;
