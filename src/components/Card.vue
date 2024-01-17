@@ -36,7 +36,7 @@
 
 <script>
 import SwiperCore, { Navigation, Pagination } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper-vue2'
+import { Swiper, SwiperSlide } from 'swiper/vue'
 
 import 'swiper/swiper-bundle.css'
 
