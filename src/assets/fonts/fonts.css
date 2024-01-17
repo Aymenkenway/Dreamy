@@ -1,0 +1,24 @@
+/* fonts.css */
+@font-face {
+  font-family: 'Hind Vadodara';
+  src: url('./HindVadodara-Regular.ttf') format('ttf'),
+    url('./HindVadodara-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Vadodara-Bold';
+  src: url('./HindVadodara-Bold.ttf') format('ttf'),
+    url('./HindVadodara-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Vadodara-Light';
+  src: url('./HindVadodara-Light.ttf') format('ttf'),
+    url('./HindVadodara-Light.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+}
