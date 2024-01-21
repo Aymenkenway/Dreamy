@@ -102,7 +102,6 @@ export default {}
   font-weight: 300;
 }
 .quotes {
-  background-color: #331b3b;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -110,6 +109,7 @@ export default {}
 }
 .quotes .first-quote {
   display: flex;
+  margin-right: 30px;
   justify-content: flex-start;
   flex-direction: column;
   text-align: left;
@@ -132,5 +132,83 @@ export default {}
   letter-spacing: 0.32px;
   word-wrap: break-word;
   max-width: 90%;
+}
+@media only screen and (max-width: 400px) {
+  .container .text {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 200px;
+  }
+
+  .container {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: 20%;
+    margin: 0;
+  }
+
+  .text {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .what-we-do {
+    color: #331b3b;
+    font-size: 48px;
+    font-family: 'Hind Vadodara-Bold', sans-serif;
+    font-weight: 700;
+    line-height: 51.02px;
+    word-wrap: break-word;
+  }
+
+  .for-you-business {
+    color: #331b3b;
+    font-size: 48px;
+    font-family: 'Hind Vadodara-Light', sans-serif;
+    font-weight: 300;
+  }
+  .quotes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+  }
+  .quotes .first-quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    text-align: left;
+    width: 70%;
+    background: white;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+  }
+
+  .first-quote img {
+    width: 50px;
+    height: auto;
+  }
+  .first-quote .lorem {
+    color: #331b3b;
+    font-size: 16px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    line-height: 25.49px;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+    max-width: 90%;
+  }
 }
 </style>

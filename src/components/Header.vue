@@ -1,5 +1,5 @@
 <template>
-  <div class="v-app-bar">
+  <div class="bg-gray-50">
     <ul class="links">
       <li>Home</li>
       <li>About US</li>
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style scoped>
-.brand-text {
+/* .brand-text {
   width: 33%;
   color: #331b3b;
   font-size: 24px;
@@ -86,5 +86,5 @@ export default {
 .container img {
   margin: 10px 0 0 10px;
   transform: rotate(330deg);
-}
+} */
 </style>
